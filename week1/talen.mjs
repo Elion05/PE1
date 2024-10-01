@@ -11,8 +11,7 @@ if(taal == "nederlands"){
 }else if(taal == "engels"){
     console.log(' hello! ')
 }else if(taal == "albanees"){
-    console.log('55')
+    console.log(' miredita ')
 }else{
-
-}
     console.log(' taal niet herkend. ')
+}
