@@ -4,11 +4,10 @@ import { parse } from 'node:path';
 const userInput = readline.createInterface({input, output});
 
 
-for(let i = 1; i < 5; i++){
+let getal = parseFloat(await userInput.question('geef een getal. '));
 
-    for(let j = 0; j < i; j++){
-        process.stdout.write("*")
-        //console.log('*')
-    }
-    console.log();
+if(getal < 1)
+for(let i = 2; i < getal; i++){
+if(getal % i === 0)
+    console.log("is een priemgetal")
 }
